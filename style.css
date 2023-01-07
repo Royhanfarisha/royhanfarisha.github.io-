@@ -1,0 +1,205 @@
+* {
+    z-index: 3;
+}
+
+body {
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    background-color: blueviolet;
+    overflow: hidden;
+}
+
+.btn-download {
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgb(170, 117, 219);
+    backdrop-filter: blur(9px);
+    box-shadow: 0 8px 32px 0 rgba(68, 0, 255, 0.2);
+}
+
+.heading1 {
+    font-family: 'DM serif', serif;
+    font-size: 70px;
+    color: #fff;
+}
+
+.heading2 {
+    font-family: 'DM serif', serif;
+    font-size: 35px;
+    color: #fff;
+}
+
+.heading3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 100px;
+    color: #fff;
+}
+
+.heading4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    color: #fff;
+}
+
+
+
+.tagline p {
+    font-size: 16px;
+    font-weight: 300px;
+    margin-top: 15px;
+    color: rgb(170, 117, 219);
+}
+
+.skill {
+    width: 300px;
+    height: 90px;
+    border-radius: 5px;
+    background-color: rgb(187, 160, 221);
+    overflow: hidden;
+}
+
+.project {
+    color: blue;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.project h3 {
+    color: blue;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.project p {
+    font-weight: 300;
+    margin-top: -10px;
+    color: #fff ;
+}
+
+.btn-hire {
+    width: 150px;
+    height: 48;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 15px;
+    background-color: rgb(170, 117, 219);
+}
+
+.card {
+    width: 260px;
+    height: 130px;
+    background-color: rgb(187, 160, 221);
+}
+
+.card h3 {
+    font-size: 19px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.card p {
+    font-size: 9px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: -10px;
+}
+
+.card .btn {
+    width: 60px;
+    height: 25px;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 700;
+    margin-top: -10px;
+    background-color: rgb(170, 117, 219);
+}
+
+.profile-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: none;
+    
+}
+
+.about {
+    font-size: 11px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: -10px;
+}
+
+.detais a {
+    font-size: 11px;
+    font-weight: 700;
+    color: #fff;
+    display: block;
+    background-color: #fff;
+    
+}
+
+.circle-blur-1 {
+    width: 800px;
+    height: 800px;
+    background-color: rgb(232, 10, 240);
+    border-radius: 50%;
+    position: absolute;
+    top: -400px;
+    left: -300px;
+    filter: blur(100px);
+    z-index: 1;
+}
+
+.circle-blur-2 {
+    width: 800px;
+    height: 800px;
+    background-color: rgb(232, 10, 240);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -600px;
+    left: 150px;
+    filter: blur(100px);
+    z-index: 1;
+}
+
+.circle-blur-3 {
+    width: 800px;
+    height: 800px;
+    background-color: rgb(10, 240, 48);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -400px;
+    right: -300px;
+    filter: blur(100px);
+    z-index: 1;
+}
+
+.circle-blur-4 {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(10, 240, 48);
+    border-radius: 50%;
+    position: absolute;
+    top: -300px;
+    right: 200px;
+    filter: blur(100px);
+    z-index: 1;
+}
+
+.glass {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    backdrop-filter: blur(4px);
+    filter: blur(10px);
+    z-index: 2;
+}
